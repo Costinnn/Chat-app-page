@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+
+}
+body{
+    background-color: hsl(270, 20%, 96%);
+}
+
+#lbox{
+    background-image: linear-gradient(to bottom,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    position: absolute;
+    z-index: -1;
+    height: 35rem;
+    width: 24rem;
+    margin-left: -12rem;
+    border-bottom-right-radius: 40rem;
+    border-bottom-left-radius: 40rem;
+    
+}
+
+#rbox{
+    background-color: hsla(293, 100%, 63%,0.1);
+    position: absolute;
+    z-index: -1;
+    height: 35rem;
+    width: 24rem;
+    margin-left: 50vw;
+    margin-right: -12rem;
+    margin-top: 25rem ;
+    margin-bottom: -1rem;
+    border-top-right-radius: 40rem;
+    border-top-left-radius: 40rem;
+    
+}
+
+section{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone{
+    margin-top: 10%;
+    width: 20rem;
+    height: 40rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.5rem 1rem 0.2rem hsla(0, 0%, 0%, 0.15);
+}
+
+.content{
+    width: 19rem;
+    height: 39rem;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.top-box{
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: white;
+    margin-bottom: 0.4rem;
+}
+
+.w-box{
+    width: 10rem;
+    height: 1.2rem;
+    background-color: white;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.account-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    padding: 0.8rem 0.5rem
+}
+.account-info h2{
+    font-size: 14px;
+    font-weight: 500;
+}
+.account-info p{
+    font-size: 12px;
+    color: hsl(276, 100%, 81%);
+}
+
+#arrow{
+    margin-left: 0.5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+#avatar{
+    width: 1.8rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#dots{
+   font-size: 1.8rem;
+    margin-left: 4.5rem;
+    transform: rotate(-90deg);
+}
+
+.text-area{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.lchat-box{
+    background-color: rgba(146, 65, 200, 0.164);
+    color: hsl(276, 55%, 52%);
+    width: 14.5rem;
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+    padding: 0.5rem 0.5rem;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.photos{
+    align-self:flex-end;
+    margin-top: 0.6rem;
+
+}
+.photos img{
+    width: 3rem;
+    border-radius: 0.7rem;
+}
+
+.rchat-box{
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    margin-right: 0.6rem;
+    margin-top: 0.6rem;
+    padding: 0.5rem 0.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 0.2rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    align-self:flex-end;
+}
+
+.rchat-box #w{
+    width: 14.5rem; 
+}
+
+.price-box{
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    color: white;
+    width: 16rem;
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+    padding: 0.8rem 0.5rem;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.circle{
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.price-box p{
+    font-size: 0.8rem;
+}
+
+.price{
+    font-weight: 500;
+    margin-left: 4rem;
+}
+
+.s{
+    margin-left: 5.6rem;
+}
+
+.text-type{
+    position: relative;
+}
+.text{
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+    width: 18rem;
+    height: 2rem;
+    border: none;
+    border-radius: 2rem;
+    position: relative;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    color: hsl(270, 7%, 64%);
+}
+
+.send-button{
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    position: absolute;
+    margin-left: 16.3rem;
+    margin-top:-1.9rem;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 0.04rem;
+}
+
+.paragraph-box{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 1.7rem;
+}
+
+.paragraph-box h2{
+    color: hsl(271, 36%, 24%);
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.paragraph-box p{
+    color: hsl(240, 0%, 41%);
+    padding-left: 1rem; 
+    padding-right: 1rem;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+@media (min-width:930px){
+    .phone{
+        margin-top: 5%;
+    }
+    .paragraph-box{
+        width: 37rem;
+        text-align: left;
+        padding-left: 5rem;
+    }
+    .paragraph-box p{
+        padding-left: 0;
+        line-height: 1.8rem;
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #lbox{
+        margin-left: -3rem;
+        height: 48rem;
+        width: 26rem;
+    }
+
+    #rbox{
+        height: 53rem;
+        width: 26rem;
+        margin-left: 75vw;
+        margin-right: -12rem;
+        margin-top: 8rem ;
+        margin-bottom: -1rem;
+        border-top-right-radius: 40rem;
+        border-top-left-radius: 40rem;
+        
+    }
+
+
+}
